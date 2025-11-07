@@ -1,9 +1,9 @@
 const config = {
 	//网页元数据
 	metaData: {
-		title: 'Leleo的个人主页🎉',
-		description: '欢迎来到Leleo的奇妙世界！',
-		keywords: 'Leleo,leleo,个人主页,个人网站',
+		title: 'Logical Cube🎉',
+		description: '欢迎来到Logical Cube的奇妙世界！',
+		keywords: 'Logical Cube,个人主页,个人网站',
 		icon: '/favicon.ico'   //网页图标，支持外链
 	},
 
@@ -53,8 +53,8 @@ const config = {
 
 	//社交按钮
 	socialPlatformIcons: [
-		{ icon: "mdi-github", link: "https://www.github.com/leleo886" },
-		{ icon: "mdi-email", link: "mailto:leleo886@foxmail.com" },
+		{ icon: "mdi-github", link: "https://github.com/screamingshark" },
+		{ icon: "mdi-email", link: "mailto:Logicacube@qq.com" },
 		{ icon: "mdi-qqchat", link: "https://im.qq.com/" },
 		{ icon: "mdi-wechat", link: "https://wx.qq.com/" },
 		{ icon: "mdi-youtube", link: "https://www.youtube.com" },
