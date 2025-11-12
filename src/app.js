@@ -266,7 +266,7 @@ export default {
     async getMusicInfo(){
       this.musicinfoLoading = true;
       try {
-        const response = await fetch(`https://api.i-meto.com/meting/api?server=${this.configdata.musicPlayer.server}&type=${this.configdata.musicPlayer.type}&id=${this.configdata.musicPlayer.id}`
+        const response = await fetch(`https://meting.arlincode.com/api?server==${this.configdata.musicPlayer.server}&type=${this.configdata.musicPlayer.type}&id=${this.configdata.musicPlayer.id}`
         );
         if (!response.ok) {
           throw new Error('网络请求失败');
